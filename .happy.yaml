@@ -3,6 +3,14 @@ version: "1"
 releaser:
   enabled: true
 
+deps:
+  go:
+    latest:
+      - github.com/happy-sdk/happy
+      - github.com/charmbracelet/bubbletea
+      - github.com/charmbracelet/lipgloss
+      - github.com/charmbracelet/bubbles
+
 git:
   author:
     email: hello@happy-sdk.dev
